@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your 4 Digit Name</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        var zaadd = prompt("Enter your name and get the first 4 digits of your name.")
+var zaaddEnglish = zaadd.length;
+if (zaaddEnglish > 3){
+    zaaddAbberv = zaadd[0].toLocaleUpperCase() + zaadd.slice (1,4);
+    document.write(zaaddAbberv);
+}
+else{
+    document.write(zaadd[0].toLocaleUpperCase() + zaadd.slice(1))
+}
+    </script>
+</body>
+</html>
